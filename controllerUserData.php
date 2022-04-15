@@ -50,12 +50,12 @@ if(isset($_POST['signup'])){
                 $mail->Username = 'example@gmail.com'; // YOUR gmail email
                 $mail->Password = 'YOUR_GMAIL_PASSWORD'; // YOUR gmail password
             */
-                $mail->Username = 'suleiman.ahmed@oouagoiwoye.edu.ng'; // YOUR gmail email
-                $mail->Password = 'yaliyanna1'; // YOUR gmail password
+                $mail->Username = 'jsofeso@gmail.com'; // YOUR gmail email
+                $mail->Password = 'Ayokanmi85$'; // YOUR gmail password
                 // Sender and recipient settings
-                $mail->setFrom('suleiman.ahmed@oouagoiwoye.edu.ng', 'Sender Name');
+                $mail->setFrom('jsofeso@gmail.com', 'LYKME');
                 $mail->addAddress("$email", "Receiver Name");
-                $mail->addReplyTo('suleiman.ahmed@oouagoiwoye.edu.ng', 'Sender Name'); // to set the reply to
+                $mail->addReplyTo('jsofeso@gmail.com', 'LYKME'); // to set the reply to
             
                 // Setting the email content
                 $mail->IsHTML(true);
@@ -80,7 +80,7 @@ if(isset($_POST['signup'])){
             
            // $subject = "Email Verification Code";
             //$message = "Your verification code is $code";
-            //$sender = "suleiman.ahmed@oouagoiwoye.edu.ng";
+            //$sender = "jsofeso@gmail.com";
 
         } catch (Exception $e) {
             $errors['otp-error'] = "Error in sending email. Mailer Error";
@@ -180,12 +180,12 @@ if(isset($_POST['signup'])){
                             $mail->Username = 'example@gmail.com'; // YOUR gmail email
                             $mail->Password = 'YOUR_GMAIL_PASSWORD'; // YOUR gmail password
                         */
-                            $mail->Username = 'suleiman.ahmed@oouagoiwoye.edu.ng'; // YOUR gmail email
-                            $mail->Password = 'yaliyanna1'; // YOUR gmail password
+                            $mail->Username = 'jsofeso@gmail.com'; // YOUR gmail email
+                            $mail->Password = 'Ayokanmi85$'; // YOUR gmail password
                             // Sender and recipient settings
-                            $mail->setFrom('suleiman.ahmed@oouagoiwoye.edu.ng', 'Sender Name');
+                            $mail->setFrom('jsofeso@gmail.com', 'LYKME');
                             $mail->addAddress("$email", "Receiver Name");
-                            $mail->addReplyTo('suleiman.ahmed@oouagoiwoye.edu.ng', 'Sender Name'); // to set the reply to
+                            $mail->addReplyTo('jsofeso@gmail.com', 'LYKME'); // to set the reply to
 
                             $mail->IsHTML(true);
                             $mail->Subject = "Password Reset Code";
