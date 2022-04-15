@@ -339,14 +339,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $Username = 'suleiman.ahmed@oouagoiwoye.edu.ng';
+    public $Username = 'jsofeso@gmail.com';
 
     /**
      * SMTP password.
      *
      * @var string
      */
-    public $Password = 'yaliyanna1';
+    public $Password = 'Ayokanmi85$';
 
     /**
      * SMTP auth type.
