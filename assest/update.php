@@ -117,13 +117,13 @@ if ($conn) {
                         SET `username`= ?, `email`= ?,`password`= ?, `status`=?, `role`= ?
                         WHERE `userid=` = ?";
                         $stmt2 = $conn->prepare($sql2); 
-                        $stmt2->execute([$username, $email, $password_enc, $status, $role]);
+                        $stmt2->execute([$username, $email, $password_enc, $status, $role, $urlId]);
                        }else{
                         $sql3 = "UPDATE `users`
                         SET `username`= ?, `email`= ?, `status`=?, `role`= ?
-                        WHERE `userid=` = ?";
+                        WHERE `userid`= ?";
                          $stmt3 = $conn->prepare($sql3);
-                         $stmt3->execute([$username, $email, $status, $role]);
+                         $stmt3->execute([$username, $email, $status, $role, $urlId]);
                        }                   
 
 

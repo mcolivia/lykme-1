@@ -86,7 +86,7 @@ $author = $stmt->fetch();
                             <select class="custom-select" name="role" id="role">
                             <option value="<?= $author['role'] ?>"><?= $author['role'] ?></option>  
                             <option disabled>-- Select User role --</option>                               
-                                <option value="admin" selected>Admin</option>
+                                <option value="admin">Admin</option>
                                 <option value="user">User</option>
                             </select>
                         </div>
@@ -96,7 +96,7 @@ $author = $stmt->fetch();
                             <select class="custom-select" name="status" id="status">
                             <option value="<?= $author['status'] ?>"><?= $author['status'] ?></option>  
                             <option disabled>-- Select Status --</option>                               
-                                <option value="enabled" selected>Active</option>
+                                <option value="enabled">Active</option>
                                 <option value="disabled">Disable</option>
                             </select>
                         </div>
