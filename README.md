@@ -9,7 +9,7 @@ PHP version > 5.4 is required
 
  quick start options available:
 
-* Clone the repo: `git clone https://github.com/KhushiShivani/lykme.git`.
+* Clone the repo: `git clone https://github.com/Sofeso/lykme.git`.
 
 
 
@@ -30,14 +30,6 @@ this user has user Previledges
 * username:sofeso
 *password:123456
 
-## Twitter Stuff
-+ <http://twitter.com/QuizSimple>
-
-## Authors
-**Ben Hall**
-
-+ <http://twitter.com/elanman>
-+ <http://github.com/elanman>
 
 
 
