@@ -56,7 +56,7 @@ $most_read_articles = $stmt->fetchAll();
 
                 <div class="text-left w-50">
                     <h1 class="display-4 text-white">Welcome To LYKME!</h1>
-                    <h2 class="display-5 text-white">You are at the right Place and At the Right Time</h2>
+                    <h2 class="display-5 text-white">Love, friendship and everything in between</h2>
 
                 </div>
 

@@ -172,10 +172,10 @@ function uploadImage2($name, $dest)
                             <label for="authTwitter">Twitter Username <span class="text-info">(optional)</span></label>
                             <input type="text" class="form-control" name="authTwitter" id="authTwitter" placeholder="Ex: Moon96Schwarz">
                         </div>
-                        <div class="form-group">
-                            <label for="authGithub">Github Username <span class="text-info">(optional)</span></label>
-                            <input type="text" class="form-control" name="authGithub" id="authGithub" placeholder="Ex: Moon96Schwarz">
-                        </div>
+                        <!--div class="form-group">
+                            <label for="authGithub">Github Username <span class="text-info">(optional)</span></label-->
+                            <input type="hidden" class="form-control" name="authGithub" id="authGithub" placeholder="Ex: Moon96Schwarz">
+                        <!--/div-->
                         <div class="form-group">
                             <label for="authLinkedin">Linkedin Username <span class="text-info">(optional)</span></label>
                             <input type="text" class="form-control" name="authLinkedin" id="authLinkedin" placeholder="Ex: Moon96Schwarz">

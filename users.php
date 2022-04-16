@@ -58,8 +58,7 @@ $authors = $stmt->fetchAll();
                             <th scope='col'>Status</th>
                             <th scope='col'>Avatar</th>
                             <th scope='col'>Email</th>
-                            <th scope='col'>Twitter</th>
-                            <th scope='col'>Github</th>
+                            <th scope='col'>Twitter</th>                            
                             <th scope='col'>Linkedin</th>
                             <th scope='col' colspan="2">Actions</th>
                         </tr>
@@ -91,11 +90,7 @@ $authors = $stmt->fetchAll();
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </td>
-                            <td class="text-center">
-                                <a href="https://github.com/<?= $author['author_github'] ?>" target="_blank">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </td>
+                            
                             <td class="text-center">
                                 <a href="https://www.linkedin.com/in/<?= $author['author_link'] ?>" target="_blank">
                                     <i class="fa fa-linkedin-square"></i>

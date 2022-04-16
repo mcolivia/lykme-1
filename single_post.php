@@ -49,10 +49,11 @@ $comments = $stmt->fetchAll();
 
                 <!-- Article -->
                 <div class="content bg-white col-lg-9 p-0 border border-muted">
-
+                
 
                     <!-- Post Image -->
-                    <div class="post__img" style="background-image: url('img/article/<?= $article["article_image"] ?>');"></div>
+                    <div class="post__img">
+                    <img style="height: 25rem;width:53.3rem; background-size: cover; background-position: inherit;" src="img/article/<?= $article["article_image"] ?>"></div>
 
                     <!-- Post Content -->
                     <div class="post__content w-75 mx-auto">
@@ -87,7 +88,7 @@ $comments = $stmt->fetchAll();
                                 <p class="text-muted mb-1"><?= $article['author_desc'] ?></p>
                                 <div class="social_media">
                                     <a href="" class="mr-3"><i class="fa fa-twitter"></i><span class="px-1"><?= $article['author_twitter'] ?></span></a>
-                                    <a href="" class="mr-3"><i class="fa fa-github"></i><span class="px-1"><?= $article['author_github'] ?></span></a>
+                                    <!--a href="" class="mr-3"><i class="fa fa-github"></i><span class="px-1"><--?= $article['author_github'] ?></span></a-->
                                     <a href="" class="mr-3"><i class="fa fa-linkedin-square"></i><span class="px-1"><?= $article['author_link'] ?></span></a>
                                 </div>
                             </div>
@@ -110,7 +111,7 @@ $comments = $stmt->fetchAll();
                         <div class="d-flex flex-column justify-content-between">
                             <div class="author_links">
                                 <a href="https://twitter.com/<?= $article['author_twitter'] ?>" class="mr-3"><i class="fa fa-lg fa-twitter"></i></a>
-                                <a href="https://github.com/<?= $article['author_github'] ?>" class="mr-3"><i class="fa fa-lg fa-github"></i></a>
+                                <!--a href="https://github.com/<--?= $article['author_github'] ?>" class="mr-3"><i class="fa fa-lg fa-github"></i></a-->
                                 <a href="https://linkedin.com/<?= $article['author_link'] ?>" class="mr-3"><i class="fa fa-lg fa-linkedin-square"></i></a>
                             </div>
                         </div>

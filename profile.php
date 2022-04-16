@@ -68,10 +68,10 @@ $author = $stmt->fetch();
                             <label for="authTwitter">Twitter Username <span class="text-info">(optional)</span></label>
                             <input type="text" class="form-control" name="authTwitter" id="authTwitter" value="<?= $author['author_twitter'] ?>">
                         </div>
-                        <div class="form-group">
-                            <label for="authGithub">Github Username <span class="text-info">(optional)</span></label>
-                            <input type="text" class="form-control" name="authGithub" id="authGithub" value="<?= $author['author_github'] ?>">
-                        </div>
+                        <!--div class="form-group">
+                            <label for="authGithub">Github Username <span class="text-info">(optional)</span></label-->
+                            <input type="hidden" class="form-control" name="authGithub" id="authGithub" value="<?= $author['author_github'] ?>">
+                        <!--/div-->
                         <div class="form-group">
                             <label for="authLinkedin">Linkedin Username <span class="text-info">(optional)</span></label>
                             <input type="text" class="form-control" name="authLinkedin" id="authLinkedin" value="<?= $author['author_link'] ?>">
